@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./simpleMesh.css">
+    <script src="https://twgljs.org/dist/4.x/twgl-full.min.js" defer></script>
+    <script src="./mesh_coarse.json"></script>
+    <script src="./simpleMesh.js" defer></script>
+    <script src="homework.js"></script>
+    <title> SimpleMesh </title>
+</head onload="">
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <canvas id="glcanvas" width="600" height="600" style=" display: block;"></canvas>
+            <div id="divcontainer"></div>
+        </div>
+
+
+        <div id="checkboxContainer">
+            <fieldset>
+                <legend>Display indices for:</legend>
+            
+                <div>
+                  <input type="checkbox" id="points" name="points">
+                  <label for="points">points</label>
+                </div>
+            
+                <div>
+                  <input type="checkbox" id="triangles" name="triangles">
+                  <label for="triangles">triangles</label>
+                </div>
+            </fieldset>
+        </div>
+        <div id="halfEdgeDescription"></div>
+
+    </div>
+
+</body>
+</html>
+
